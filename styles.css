@@ -1,0 +1,37 @@
+/*	Stylesheet for Bootstrap BNB project (Ch.5)
+	Author: Rishabh Tiwari
+	Date: 05/31/19
+	filename: styles.css
+*/
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	font-size: 24px;
+	font-weight: bold;
+	padding-right:50px;
+	transition: color 1s;
+}
+
+nav a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+.nav {
+	padding-top:10px;
+	background-color: lightskyblue;
+}
+
+.jumbotron {
+	background-image: url(food9.png);
+	background-size: 1400px 450px;
+	background-repeat: cover;
+	height: 380px;
+}
+
+div>a {
+	padding-left: 75px;
+}
